@@ -3,7 +3,6 @@ package com.example.hwn_0907_authorisationservice.service;
 import com.example.hwn_0907_authorisationservice.exception.InvalidCredentials;
 import com.example.hwn_0907_authorisationservice.exception.UnauthorizedUser;
 import com.example.hwn_0907_authorisationservice.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
