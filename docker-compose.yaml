@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  auth_app:
+    image: 'authapp:latest'
+    ports:
+      - '8080:8080'
+    build: './'
